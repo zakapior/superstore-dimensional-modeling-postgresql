@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: upstream
+    database: turing
+    schema: jakluz-DE3.2.5  
+    tables:
+      - name: superstore_final_dataset

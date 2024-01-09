@@ -1,0 +1,19 @@
+
+version: 2
+
+models:
+  - name: dim_products
+    description: "Dimension table for products"
+  - name: dim_date
+    description: "Source dimension table for dates"
+  - name: dim_shipping_dates
+    description: "Dimension view for shipping dates"
+  - name: dim_order_date
+    description: "Dimension view for order dates"
+  - name: dim_customer
+    description: "Customer dimension table"
+  - name: dim_shipping_addresses
+    description: "Shipping addresses dimension table"
+  - name: fct_sales
+    description: "Shipped products fact table. It stores information about each single shipped product."
+

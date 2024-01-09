@@ -1,0 +1,1 @@
+alias dbt="docker run -p 8080:8080 --mount type=bind,source=/home/ubuntu/jakluz-DE3.2.5/dbt,target=/usr/app --mount type=bind,source=/home/ubuntu/.dbt,target=/root/.dbt dbt"
